@@ -133,6 +133,10 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 - **Data Analysts** - Building classification models without coding
 - **ML Practitioners** - Rapid baseline model evaluation
 
+# Deployed streamlit link
+
+https://hassan2-aamir-cs245-project-automl-streamlit-app-akmffq.streamlit.app/
+
 ## License
 
 This project is developed as part of CS-245 Machine Learning course.
