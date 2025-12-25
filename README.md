@@ -1,28 +1,28 @@
-# 🤖 AutoML Classification System
+# AutoML Classification System
 
 A **Streamlit-based AutoML web application** that automates the complete machine learning workflow for classification tasks - from data upload to model deployment and real-time prediction.
 
-## ✨ Features
+## Features
 
-- 📁 **CSV Upload** with automatic encoding detection (UTF-8, Latin-1)
-- 🔍 **Automated EDA** with missing value analysis, outlier detection, correlation matrices
-- ⚠️ **Data Quality Detection** (class imbalance, high cardinality, constant features)
-- 🛠️ **User-Controlled Preprocessing** - you approve all fixes before they're applied
-- 🤖 **7 Classification Algorithms**: Logistic Regression, KNN, Decision Tree, Naive Bayes, Random Forest, SVM, Rule-Based
-- ⚡ **Hyperparameter Tuning** with Grid Search or Randomized Search
-- 📊 **Comprehensive Comparison** with Accuracy, Precision, Recall, F1, ROC-AUC
-- 📄 **Detailed Reports** in HTML and Markdown format
-- 🎯 **Real-Time Prediction** with the best trained model
+- **CSV Upload** with automatic encoding detection (UTF-8, Latin-1)
+- **Automated EDA** with missing value analysis, outlier detection, correlation matrices
+- **Data Quality Detection** (class imbalance, high cardinality, constant features)
+- **User-Controlled Preprocessing** - you approve all fixes before they're applied
+- **7 Classification Algorithms**: Logistic Regression, KNN, Decision Tree, Naive Bayes, Random Forest, SVM, Rule-Based
+- **Hyperparameter Tuning** with Grid Search or Randomized Search
+- **Comprehensive Comparison Between Models** with Accuracy, Precision, Recall, F1, ROC-AUC
+- **Detailed Reports** in HTML and Markdown format
+- **Real-Time Prediction** with the best trained model
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Local Development
 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd AutoMl-FutureCashCow
+   git clone https://github.com/hassan2-aamir/CS245_Project_AutoMl.git
+   cd CS245_Project_AutoMl
    ```
 
 2. **Create virtual environment**
@@ -52,7 +52,7 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 2. Connect repository to [Streamlit Cloud](https://streamlit.io/cloud)
 3. Deploy with default settings (auto-detects `streamlit_app.py`)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── streamlit_app.py              # Main entry point
@@ -80,7 +80,7 @@ A **Streamlit-based AutoML web application** that automates the complete machine
     └── visualizations.py         # Plot utilities
 ```
 
-## 🔧 Workflow
+## Workflow
 
 1. **Upload Dataset** - Upload CSV file (max 200 MB)
 2. **Explore Data** - View automated EDA and detected issues
@@ -91,7 +91,7 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 7. **Generate Report** - Download comprehensive HTML/Markdown report
 8. **Make Predictions** - Use the best model for new data
 
-## 📊 Supported Algorithms
+## Supported Algorithms
 
 | Algorithm              | Description                             |
 | ---------------------- | --------------------------------------- |
@@ -103,7 +103,7 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 | Support Vector Machine | Margin-based classifier                 |
 | Rule-Based             | Interpretable decision rules            |
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy** - Overall correctness
 - **Precision** - Positive predictive value
@@ -112,7 +112,7 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 - **ROC-AUC** - Area under ROC curve (binary classification only)
 - **Confusion Matrix** - Detailed prediction breakdown
 
-## ⚙️ Configuration
+## Configuration
 
 ### File Constraints
 
@@ -126,25 +126,17 @@ A **Streamlit-based AutoML web application** that automates the complete machine
 - **Training**: ≤15 minutes for 50k rows
 - **Prediction**: ≤2 seconds response time
 
-## 🎓 Target Users
+## Target Users
 
 - **Students** - Learning ML through hands-on experimentation
 - **Researchers** - Quick model prototyping and comparison
 - **Data Analysts** - Building classification models without coding
 - **ML Practitioners** - Rapid baseline model evaluation
 
-## 📝 License
+## License
 
 This project is developed as part of CS-245 Machine Learning course.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
 ---
 
-**Built with ❤️ using Streamlit and scikit-learn**
+**Built using Streamlit and scikit-learn**
